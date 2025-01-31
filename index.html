@@ -13,7 +13,7 @@
         </header>
     
         <section>
-            <h2>Digite o nome dos seus amigos</h2>
+            <h2>Digite o nome dos seus amigos!</h2>
             <div>
                 <input type="text" id="idDoInput" maxlength="30" placeholder="Digite um nome...">
                 <button onclick="adicionarNoArray()">Adicionar</button>
@@ -21,10 +21,11 @@
     
             <ul id="listaDeAmigos"></ul>
     
-            <button onclick="sortear()">
+            <button id="buttonSortear" onclick="sortear()">
                 Sortear
                 <img src="" alt="Icone-Para-Sortear">
             </button>
+            <button id="buttonReiniciar" onclick="reiniciar()" style="display: none;">Reiniciar</button>
         </section>
     </main>
 
