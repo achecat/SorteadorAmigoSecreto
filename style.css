@@ -46,7 +46,7 @@ input[type="text"]{
     border-right: 3px ridge #ffffff;
 }
 input::placeholder{
-    color: #ffffff;
+    color:transparent;
     font-family: 'Courier New', Courier, monospace;
 }
 input::focus{
