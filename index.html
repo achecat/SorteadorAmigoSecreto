@@ -4,8 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amigo Secreto</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <main>
+        <header>
+            <h1>Amigo Secreto</h1>
+        </header>
     
+        <section>
+            <h2>Digite o nome dos seus amigos</h2>
+            <div>
+                <input type="text" id="idDoInput" maxlength="30" placeholder="Digite um nome...">
+                <button onclick="adicionarNoArray()">Adicionar</button>
+            </div>
+    
+            <ul id="listaDeAmigos"></ul>
+    
+            <button onclick="sortear()">
+                Sortear
+                <img src="" alt="Icone-Para-Sortear">
+            </button>
+        </section>
+    </main>
+
+    <script src="app.js" defer></script>
 </body>
 </html>
