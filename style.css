@@ -1,7 +1,98 @@
+/* Configuracoes principais como body e section*/
 body{
-    background-color: black;
-    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+    background-color: #242424;
+}
+section{
+    text-align: center;       
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    gap: 10px;
+    margin-bottom: 20px;
+
+    border: 3px ridge #ffffff;
+}
+
+/* Configuracoes de títulos */
+h1{
+    margin-bottom: 50px;
+
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+}
+
+/* Configuracoes do input */
+input[type="text"]{
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+
+    font-family: 'Courier New', Courier, monospace;
+    background-color: transparent;
+    color: #ffffff;
+    border-bottom: 3px ridge #ffffff;
+    border-right: 3px ridge #ffffff;
+}
+input::placeholder{
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+}
+input::focus{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+/* Configuracoes dos botões */
+button{
+    padding: 10px 17px;
+
+    background-color: transparent;
+    color: #ffffff;
+    border-bottom: 3px ridge #ffffff;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 15px;
+}
+button:hover{
+    border: 3px ridge #ffffff;
+}
+.buttonsBottom{
+    padding: 15px 90px;
+
+    font-size: 20px;
+    border-bottom: 4px ridge #ffffff;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+}
+
+/* Configuracoes das ul e li */
+ul{
+    list-style-type: none;
+    padding: 10px;
 }
 li{
-    color: white;
+    padding: 10px;
+    margin: 5px 0;
+
+    background-color: #242424;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
 }
+/* Fim */
